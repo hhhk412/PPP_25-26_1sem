@@ -12,5 +12,5 @@ for j in range(5):
     print(f"Предмет {j+1}: {max(subject)} {min(subject)}")
 
 most = [sum(grades[i])/5 for i in range(10)]
-print(f"Лучший: Студент {most.index(max(avgs))+1}")
-print(f"Худший: Студент {most.index(min(avgs))+1}")
+print(f"Лучший: Студент {most.index(max(most))+1}")
+print(f"Худший: Студент {most.index(min(most))+1}")
