@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
 def calc(s, lvl=0):
-    if len(s) == 1:          # одно число
+    if len(s) == 1:         
         print("  "*lvl + s)
         return int(s)
 
